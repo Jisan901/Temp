@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Funnnnnny login</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            min-height: 100vh;
+            background-color: rgb(24,30,34);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+            width: 90%;
+            height: 100%;
+            max-width: 300px;
+            max-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 18px;
+        }
+        .inputs{
+            padding: 8px 5px;
+            border: none;
+            border-radius: 7px;
+            font-size: 1.1rem;
+            outline: none;
+        }
+        button{
+            background-color: #0866FF;
+            color: #fff;
+            border-radius: 7px;
+            font-size: 1.2rem;
+            border: none;
+            padding: 8px 10px;
+        }
+        span{
+            display: block;
+            color: white;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <input class="inputs" type="text" name="email" id="email" placeholder="Email" />
+        <input class="inputs" type="password" name="email" id="email" placeholder="Password" />
+        <span><small>messages</small></span>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
